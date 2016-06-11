@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:peng="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/homebg">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@mipmap/titlebg" />
+
+        <TextView android:id="@+id/level"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:background="@mipmap/shopitem"
+            android:hint="等级"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+        <com.lvzhihao.roitguess.view.DrawableTextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@mipmap/yellowbg"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            peng:peng_drawableLeft="@mipmap/head"
+            peng:peng_drawableLeftHeight="8dp"
+            peng:peng_drawableLeftWidth="8dp" />
+
+        <com.lvzhihao.roitguess.view.DrawableTextView
+            android:id="@+id/exp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="5dp"
+            android:background="@mipmap/bluebg"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="查克拉"
+            android:textColor="#ff0000"
+            android:textSize="20sp"
+            peng:peng_drawableLeft="@mipmap/expfire"
+            peng:peng_drawableLeftHeight="8dp"
+            peng:peng_drawableLeftWidth="8dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/MyProgressBarStyleHorizontal"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/exp"
+            android:layout_alignTop="@+id/exp"
+            android:layout_below="@+id/name"
+            android:layout_toRightOf="@+id/exp"
+            android:foregroundGravity="center"
+            android:onClick="showExp"></ProgressBar>
+
+        <com.lvzhihao.roitguess.view.DrawableTextView
+            android:id="@+id/coin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/progressBar"
+            android:background="@mipmap/coinbg"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            android:text="0"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            peng:peng_drawableRight="@mipmap/coin"
+            peng:peng_drawableRightHeight="8dp"
+            peng:peng_drawableRightWidth="8dp" />
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/help"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:onClick="help"
+            />
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/exit"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:onClick="exit"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

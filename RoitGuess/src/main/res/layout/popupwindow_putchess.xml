@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:peng="http://schemas.android.com/apk/res-auto"
+    android:background="#90b19e7a"
+    android:orientation="vertical">
+
+    <com.lvzhihao.roitguess.view.DrawableTextView
+        android:id="@+id/scisssornum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        peng:peng_drawableLeft="@mipmap/scissors"
+        peng:peng_drawableLeftHeight="12dp"
+        peng:peng_drawableLeftWidth="12dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/line"
+        android:textSize="30sp" />
+
+
+    <com.lvzhihao.roitguess.view.DrawableTextView
+        android:id="@+id/rocknum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        peng:peng_drawableLeft="@mipmap/rock"
+        peng:peng_drawableLeftHeight="12dp"
+        peng:peng_drawableLeftWidth="12dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/line"
+        android:textSize="30sp" />
+
+    <com.lvzhihao.roitguess.view.DrawableTextView
+        android:id="@+id/papernum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        peng:peng_drawableLeft="@mipmap/paper"
+        peng:peng_drawableLeftHeight="12dp"
+        peng:peng_drawableLeftWidth="12dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/line"
+        android:textSize="30sp" />
+
+
+</LinearLayout>

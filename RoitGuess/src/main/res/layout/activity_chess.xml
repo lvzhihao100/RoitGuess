@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bk"
+    tools:context="com.lvzhihao.roitguess.ChessActivity">
+
+
+    <ImageView
+        android:id="@+id/chessback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/chessback" />
+
+    <Button android:id="@+id/x"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/x"
+        android:onClick="back"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@mipmap/b_z_icon"/>
+
+    <Button android:id="@+id/autoplace"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:background="@mipmap/autoplace"
+        android:onClick="autoPlace" />
+
+    <Button android:id="@+id/startgame"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/line"
+        android:onClick="start"
+        android:text="开始游戏"
+        android:textColor="#ff0"
+        android:textSize="25sp" />
+
+</RelativeLayout>

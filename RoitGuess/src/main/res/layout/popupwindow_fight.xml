@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#9000"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <ImageView android:id="@+id/fight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/fight"
+        android:visibility="gone"/>
+    <ImageView android:id="@+id/gameover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ltr_gameover"
+        android:visibility="gone"/>
+    <TextView android:id="@+id/reword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+
+
+        >
+        <ImageView android:id="@+id/emy"
+            android:layout_width="40sp"
+            android:layout_height="60sp"
+            android:src="@mipmap/rockman_1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView android:id="@+id/first_emy"
+                android:layout_width="40sp"
+                android:layout_height="60sp"
+                android:layout_marginRight="15sp"
+                android:src="@mipmap/rock"/>
+            <ImageView android:id="@+id/second_emy"
+                android:layout_width="40sp"
+                android:layout_height="60sp"
+                android:layout_marginRight="15sp"
+                android:src="@mipmap/paper"/>
+            <ImageView android:id="@+id/third_emy"
+                android:layout_width="40sp"
+                android:layout_height="60sp"
+                android:layout_marginRight="15sp"
+                android:src="@mipmap/scissors"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="40sp"
+            android:src="@mipmap/ltr_you"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView android:id="@+id/first_me"
+                android:layout_width="40sp"
+                android:layout_height="60sp"
+                android:layout_marginRight="15sp"
+                android:src="@mipmap/rock"/>
+            <ImageView android:id="@+id/second_me"
+                android:layout_width="40sp"
+                android:layout_height="60sp"
+                android:layout_marginRight="15sp"
+                android:src="@mipmap/paper"/>
+            <ImageView android:id="@+id/third_me"
+                android:layout_width="40sp"
+                android:layout_height="60sp"
+                android:layout_marginRight="15sp"
+                android:src="@mipmap/scissors"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/grade"
+            android:layout_width="150sp"
+            android:layout_height="50sp"
+            android:src="@mipmap/ltr_youwin"/>
+    </LinearLayout>
+
+</LinearLayout>

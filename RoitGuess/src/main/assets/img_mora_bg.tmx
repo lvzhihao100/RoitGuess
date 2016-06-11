@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="12" height="20" tilewidth="40" tileheight="40">
+ <tileset firstgid="1" name="img_mora_bg" tilewidth="40" tileheight="40">
+  <image source="img_mora_bg.png" width="480" height="800"/>
+ </tileset>
+ <layer name="块层 1" width="12" height="20">
+  <data encoding="base64" compression="zlib">
+   eJwNwwN3FgAAAMAvG8u2bdcaqlXLtm3btbCWbdu2bdt2/YTu3rtYgUAgtnGMazzjm8CEJjKxSUxqMpObwpQGmcrUpjGt6UxvBjOaycxmMavZzG4Oc5rL3OYxr/nMbwELWsjCFrGoxSxuCUtaytKWsazlLG8FK1rJylaxqtUMtrohhhpmuDWsaS0jrG0d6xppPevbwIY2srFNbGozm9vClraytW1sazvb28GOdrKzXexqN7vbw572srd97Gs/+zvAgQ5ysEMc6jCHO8KRjnK0YxzrOMc7wYlOcrJTnOo0o5zuDGc6y2hnG+Mc5zrP+S5woYtc7BKXuszlrnClq1ztGte6zvVucKOb3OwWt7rN7e5wp7vc7R73us/9HvCghzzsEY96zOOe8KSnPO0Zz3rO817wope87BWves3r3vCmt7ztHe96z/s+8KGPfOwTn/rM577wpa987Rvf+s73fvCjn/zsF7/6ze/+8Ke//O0f//rP/29ScPk=
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:peng="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    >
+<com.lvzhihao.roitguess.view.DrawableTextView
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_marginTop="10dp"
+    android:gravity="center"
+    android:singleLine="true"
+    android:background="@mipmap/shopitem"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    peng:peng_drawableLeft="@mipmap/heart"
+    peng:peng_drawableLeftHeight="15dp"
+    peng:peng_drawableLeftWidth="15dp"
+    android:text="5个 100"
+    android:textSize="30sp"
+    peng:peng_drawableRight="@mipmap/coin"
+    peng:peng_drawableRightWidth="10dp"
+    peng:peng_drawableRightHeight="10dp"/>
+    </LinearLayout>
